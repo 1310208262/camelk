@@ -1,0 +1,12 @@
+- route:
+    id: route-0d77
+    nodePrefixId: route-26f
+    from:
+      id: from-2762
+      uri: kamelet:timer-source
+      parameters:
+        message: fsa
+      steps:
+        - log:
+            id: log-635f
+            message: ${body}
