@@ -140,6 +140,18 @@
                         <version>0.3.0</version>
                     </dependency>
                 </dependencies>
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:17</image>
+                        <auth>
+                            <username>registry</username>
+                            <password>registry</password>
+                        </auth>
+                    </from>
+<!--                    <to>-->
+<!--                        <image>username/${project.artifactId}:version</image>-->
+<!--                    </to>-->
+                </configuration>
             </plugin>
         </plugins>
     </build>
