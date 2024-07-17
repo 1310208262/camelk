@@ -147,7 +147,7 @@
                 </dependencies>
                 <configuration>
                     <from>
-                        <image>eclipse-temurin:17</image>
+                        <image>tsmyk.com/library/eclipse-temurin:17</image>
                         <auth>
                             <username>registry</username>
                             <password>registry</password>
